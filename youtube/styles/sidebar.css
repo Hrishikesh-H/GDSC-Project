@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 101;
+}
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+/*when there is no comma between two selectors it means we target
+ only second elements under first selected target*/
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family:'Roboto', Arial;
+    font-size: 10px;
+
+}
